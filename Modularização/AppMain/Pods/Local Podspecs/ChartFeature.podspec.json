@@ -1,0 +1,39 @@
+{
+  "name": "ChartFeature",
+  "version": "1.0.0",
+  "summary": "A short description of ChartFeature.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Emerson Sampaio/ChartFeature",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Emerson Sampaio": "32761815+emersonsmp@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Emerson Sampaio/ChartFeature.git",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ChartFeature/Classes/**/*",
+  "default_subspecs": "Release",
+  "dependencies": {
+    "Charts": [
+
+    ],
+    "TinyConstraints": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Release",
+      "vendored_frameworks": "Framework/ChartFeature.framework"
+    }
+  ],
+  "swift_version": "5.0"
+}
